@@ -81,25 +81,25 @@ Here we’ll grab a selection of the columns, “name” and “size” from the
 new_df = df[["name", "size"]]
 
 (20) Summary information about your data
-# Sum of values in a data frame
+### Sum of values in a data frame
 df.sum()
 # Lowest value of a data frame
 df.min()
-# Highest value
+### Highest value
 df.max()
-# Index of the lowest value
+### Index of the lowest value
 df.idxmin()
-# Index of the highest value
+### Index of the highest value
 df.idxmax()
-# Statistical summary of the data frame, with quartiles, median, etc.
+### Statistical summary of the data frame, with quartiles, median, etc.
 df.describe()
-# Average values
+### Average values
 df.mean()
-# Median values
+### Median values
 df.median()
-# Correlation between columns
+### Correlation between columns
 df.corr()
-# To get these values for only one column, just select it like this#
+### To get these values for only one column, just select it like this#
 df["size"].median()
 
 (21) Sorting your data
